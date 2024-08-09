@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            border: 2px solid black;
+        }
+        @media screen and (min-width: 500px) {
+            .box {
+                height: 300px;
+                width: 300px;
+                background-color: brown;
+                text-align: center;
+                font-size: 60px;
+                font-style: oblique;
+                border: 6px solid black;
+            }
+        }   
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>

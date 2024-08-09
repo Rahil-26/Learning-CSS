@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    display: flex;
+    background-color: darkgray;
+}
+.box {
+    height: 250px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 5px;
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: brown;
+    flex-shrink: 15;
+}
+#box3 {
+    background-color: darkblue;
+}
+#box4 {
+    background-color: saddlebrown;
+    flex-shrink: 5;
+}
